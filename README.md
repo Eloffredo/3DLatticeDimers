@@ -14,9 +14,9 @@ A conctact map for the interaction modes should be provided and can be generated
 
 ### Options
 The full list of options can be obtained by running ```python3 ./script_name.py --help```. In particular
-* ```-t``` sets the mutational protocol $T$ during evolution. Use $0,1$ to mutate only the left or right structure of the dimer (monomeric evolution); use $2,3$ to propose mutation on both structures at the same time or once at time.
+* ```-t``` sets the mutational protocol $T$ during evolution. Use $0,1$ to mutate only the left or right structure of the dimer (monomeric evolution); use $2,3$ to propose mutation on both structures at the same time or once at time (dimeric evolution).
 * ```-b``` sets the strength of the native selection pressure $\beta$. The higher this values the more the native stability of each structure will be prioritized over interaction.
-* ```-g``` sets the strength of the native selection pressure $\gamma$. The higher this values the more the interaction between structures will be favored over single structure stability.
+* ```-g``` sets the strength of the interaction selection pressure $\gamma$. The higher this values the more the interaction between structures will be favored over single structure stability.
 * ```-id``` is used to set the ID number to fix the cubic structure.
 
 ### Dependencies
