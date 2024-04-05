@@ -1,7 +1,7 @@
 # Design of 3D Lattice Protein Dimer Sequences using MCMC algorithms
 
 This repository provides scripts to generate MSA and Evolutionary trajectories of 3-dimensional cubic lattice proteins dimers, undergoing monomeric or dimeric evolution in presence of selective pressures for stability and interaction. 
-The script considers $\mathcal{N} = 10000$ cubic structures among the all possible $3 \times 3 \times 3$ possible ones for computational efficiency; they are entirely listed in the file ```src/allfacs10000.dat```. An example of lattice dimer involving two fixed structure in conctact across one face is showed in
+The script considers $\mathcal{N} = 10000$ cubic structures among the all possible $3 \times 3 \times 3$ possible ones for computational efficiency; they are entirely listed in the file ```src/allfacs10000.dat```. An example of lattice dimer involving two fixed structure in conctact across one face is showed below
 <p align="center"><img width=50% alt="Overview" src="src/lattice_dimer-1.png"></p>
 
 A demo notebook shows some dimer sequences in the MSA and the evolutionary trajectories of native stability fitnesses and interacting fitness $\mathcal{P}$.
